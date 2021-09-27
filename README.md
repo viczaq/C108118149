@@ -24,24 +24,65 @@ Combined emphasis with asterisks and underscores.
 
 Strikethrough uses two tildes. ~~Scratch this~~.
 
-1.First ordered list item
+---
 
-2.Another item
+1. First ordered list item
 
-●Unordered sub-list.
+2. Another item  
+..*Unordered sub-list.
 
-3.Actual numbers don't matter,just that it's a number
+3. Actual numbers don't matter,just that it's a number  
+ ...1. Ordered sub-list  
+ ...2. 2nd
+ 
+4. Ordered sub-list  
+ ...* note 1  
+ ...* note 2  
+ *** note 3
+ 
+ ---
+ 
+- [x] todo list
 
-4.Ordered sub-list
+- [ ] 2nd things
+- [ ] 
+---
 
-5.2nd
+#### python code
+```
+s = "Python syntax highlighting"
+print s
+```
 
-6.And another item.
+---
 
-     ○ note 1
-     ○ note 2
-     ○ note 3
+#### javascript
+```javascript
+var s = "JavaScript syntax highlighting";
+alert(s);
+```
 
-[ ] todo list
+---
 
-[ ] 2nd things
+Conlons can be used to align columns.
+| Tables | Are | Cool |
+| :------ |:--- | :--- |
+| col3 is | right-aligned | $1600 |
+| col2 is | centered | $12 |
+| zebra stripes | are neat | $1|
+
+There must be at least 3 dashes separating each header cell.  
+The outer pipes(|) are optional, and you don't need to make the  
+raw Markdown line up prettily. You can also use in line Markdown.
+| Markdown | Less | Pretty |
+| :------ |:--- | :--- |
+| Still | renders | **nicely** |
+| 1 | 2 | 3 |
+
+
+
+
+
+
+
+
