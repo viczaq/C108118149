@@ -6,3 +6,8 @@
 #### 題目:
 
 ![](https://www.nkust.edu.tw/var/file/0/1000/img/513/182513897.png "")
+ This is a ` text `.
+ 
+'''
+ This is a long quote.
+'''
